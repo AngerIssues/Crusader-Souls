@@ -123,10 +123,27 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="TiledBackground4" sid="943927468993352">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\plhuillier\Downloads\Grass Land Done.gif" />
+        </object-type>
+        <object-type name="TiledBackground5" sid="500581639435856">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="Portal" sid="302220605678927">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="709100209161338" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
-        <layout>Layout 1.xml</layout>
+        <layout>Redneck.xml</layout>
+        <layout>Plain.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
