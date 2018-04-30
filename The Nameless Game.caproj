@@ -15,6 +15,7 @@
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
@@ -50,6 +51,16 @@
         <prop name="Use iOS retina display">All devices</prop>
     </configuration-settings>
     <object-folder>
+        <object-folder name="HUD">
+            <object-type name="HudScoreText" sid="279741419104095">
+                <plugin id="Spritefont2" />
+                <texture />
+            </object-type>
+            <object-type name="HudScore" sid="381859410291910">
+                <plugin id="Spritefont2" />
+                <texture />
+            </object-type>
+        </object-folder>
         <object-type name="TiledBackground" sid="3206956448522659">
             <plugin id="TiledBg" />
             <texture />
@@ -74,9 +85,6 @@
         </object-type>
         <object-type name="Browser" sid="3498868852026895">
             <plugin id="Browser" />
-        </object-type>
-        <object-type name="Text" sid="2985603725420557">
-            <plugin id="Text" />
         </object-type>
         <object-type name="TiledBackground2" sid="870629866160195">
             <plugin id="TiledBg" />
@@ -123,6 +131,109 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Gold" sid="201398601304136">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Heart1" sid="636683556918890">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="591909052447028" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jhedges\Downloads\Heart.gif">
+                        <collision-poly>
+                            <point x="0.40625" y="0.40625" />
+                            <point x="0.5" y="0.4375" />
+                            <point x="0.59375" y="0.40625" />
+                            <point x="0.65625" y="0.5" />
+                            <point x="0.59375" y="0.59375" />
+                            <point x="0.5" y="0.6875" />
+                            <point x="0.375" y="0.625" />
+                            <point x="0.3125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Score" sid="962399356867087">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Coin" sid="877081899356143">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="982981798443284" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jhedges\Downloads\Coin.gif">
+                        <collision-poly>
+                            <point x="0.4375" y="0.4375" />
+                            <point x="0.5" y="0.34375" />
+                            <point x="0.625" y="0.375" />
+                            <point x="0.65625" y="0.5" />
+                            <point x="0.5625" y="0.5625" />
+                            <point x="0.5" y="0.5625" />
+                            <point x="0.4375" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text3" sid="165387455737594">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Heart2" sid="915760669761822">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="478687869317458" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jhedges\Downloads\Heart.gif">
+                        <collision-poly>
+                            <point x="0.40625" y="0.40625" />
+                            <point x="0.5" y="0.4375" />
+                            <point x="0.59375" y="0.40625" />
+                            <point x="0.65625" y="0.5" />
+                            <point x="0.59375" y="0.59375" />
+                            <point x="0.5" y="0.6875" />
+                            <point x="0.375" y="0.625" />
+                            <point x="0.3125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Heart3" sid="776130769115702">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="288702389224708" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jhedges\Downloads\Heart.gif">
+                        <collision-poly>
+                            <point x="0.40625" y="0.40625" />
+                            <point x="0.5" y="0.4375" />
+                            <point x="0.59375" y="0.40625" />
+                            <point x="0.65625" y="0.5" />
+                            <point x="0.59375" y="0.59375" />
+                            <point x="0.5" y="0.6875" />
+                            <point x="0.375" y="0.625" />
+                            <point x="0.3125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Heart4" sid="589497867335634">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="520415460874959" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jhedges\Downloads\Heart.gif">
+                        <collision-poly>
+                            <point x="0.40625" y="0.40625" />
+                            <point x="0.5" y="0.4375" />
+                            <point x="0.59375" y="0.40625" />
+                            <point x="0.65625" y="0.5" />
+                            <point x="0.59375" y="0.59375" />
+                            <point x="0.5" y="0.6875" />
+                            <point x="0.375" y="0.625" />
+                            <point x="0.3125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -130,6 +241,7 @@
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Hud.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="WebStorage" uid="1" />

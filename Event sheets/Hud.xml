@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Hud</name>
+    <events>
+        <event-group description="" sid="968767333376736" title="Gold">
+            <sub-events>
+                <event-block sid="158915262293216">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="408630875426000" type="Coin">
+                            <param id="0" name="Object">Character</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="704034782608302" type="Coin" />
+                        <action id="-10" name="Add to" sid="525130693427601" type="System">
+                            <param id="0" name="Variable">Gold</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="499154104032735" title="Health">
+            <sub-events>
+                <event-block sid="489217771876309">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="449426571680572" type="System">
+                            <param id="0" name="Variable">Health</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="909498166449524" type="System">
+                            <param id="0" name="Variable">Health</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="606386301637518" type="Heart4" />
+                    </actions>
+                </event-block>
+                <event-block sid="780941038248352">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="383744429795293" type="System">
+                            <param id="0" name="Variable">Health</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="603262578801219" type="System">
+                            <param id="0" name="Variable">Health</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="676871265320025" type="Heart3" />
+                    </actions>
+                </event-block>
+                <event-block sid="322862514472295">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="265329549541594" type="System">
+                            <param id="0" name="Variable">Health</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="679921760978454" type="System">
+                            <param id="0" name="Variable">Health</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="734190819482643" type="Heart2" />
+                    </actions>
+                </event-block>
+                <event-block sid="356827861051323">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="524665530807896" type="System">
+                            <param id="0" name="Variable">Health</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="625218487384650" type="System">
+                            <param id="0" name="Variable">Health</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="829726575366217" type="Heart1" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="547463275460626" title="Hud">
+            <sub-events>
+                <event-block sid="625488766611983">
+                    <conditions />
+                    <actions>
+                        <action id="0" name="Set text" sid="743906576755889" type="HudScore">
+                            <param id="0" name="Text">Gold</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>
