@@ -15,7 +15,6 @@
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
-        <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
@@ -51,16 +50,6 @@
         <prop name="Use iOS retina display">All devices</prop>
     </configuration-settings>
     <object-folder>
-        <object-folder name="HUD">
-            <object-type name="HudScoreText" sid="279741419104095">
-                <plugin id="Spritefont2" />
-                <texture />
-            </object-type>
-            <object-type name="HudScore" sid="381859410291910">
-                <plugin id="Spritefont2" />
-                <texture />
-            </object-type>
-        </object-folder>
         <object-type name="TiledBackground" sid="3206956448522659">
             <plugin id="TiledBg" />
             <texture />
@@ -86,14 +75,10 @@
         <object-type name="Browser" sid="3498868852026895">
             <plugin id="Browser" />
         </object-type>
-<<<<<<< HEAD
         <object-type name="Text" sid="2985603725420557">
             <plugin id="Text" />
         </object-type>
         <object-type name="House" sid="870629866160195">
-=======
-        <object-type name="TiledBackground2" sid="870629866160195">
->>>>>>> b2ebd4063861e7b8fc9fb8214440ed6bb64ee405
             <plugin id="TiledBg" />
             <texture original-source="C:\Users\plhuillier\Downloads\Finished Level.gif" />
         </object-type>
@@ -138,130 +123,18 @@
                 </animation>
             </animation-folder>
         </object-type>
-<<<<<<< HEAD
         <object-type name="Plain" sid="943927468993352">
             <plugin id="TiledBg" />
             <texture original-source="C:\Users\plhuillier\Downloads\Grass Land Done.gif" />
-=======
-        <object-type name="Gold" sid="201398601304136">
-            <plugin id="Text" />
->>>>>>> b2ebd4063861e7b8fc9fb8214440ed6bb64ee405
         </object-type>
-        <object-type name="Score" sid="962399356867087">
-            <plugin id="Text" />
+        <object-type name="TiledBackground5" sid="500581639435856">
+            <plugin id="TiledBg" />
+            <texture />
         </object-type>
-        <object-type name="Text3" sid="165387455737594">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Sprite2" sid="825034947858144">
+        <object-type name="Portal" sid="302220605678927">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="232175441585276" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Coin" sid="489657313895620">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="6" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="268421108252866" speed="5">
-                    <frame duration="1" hotspotX="0.529412" hotspotY="0.5" original-source="C:\Users\jhedges\Downloads\Gold Coin.png">
-                        <collision-poly>
-                            <point x="0.147059" y="0.147059" />
-                            <point x="1" y="0.205882" />
-                            <point x="1" y="1" />
-                            <point x="1" y="1" />
-                            <point x="0.382353" y="1" />
-                            <point x="0.382353" y="1" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.533333" hotspotY="0.5">
-                        <collision-poly>
-                            <point x="0.0333333" y="0.147059" />
-                            <point x="1" y="0.205882" />
-                            <point x="1" y="1" />
-                            <point x="1" y="1" />
-                            <point x="0.3" y="1" />
-                            <point x="0.3" y="1" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.571429" hotspotY="0.484848">
-                        <collision-poly>
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="0.515152" />
-                            <point x="1" y="1" />
-                            <point x="0.0714286" y="1" />
-                            <point x="0.0714286" y="0.515152" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.111111" hotspotY="0.651515">
-                        <collision-poly>
-                            <point x="0" y="0.0757576" />
-                            <point x="0.611111" y="0.106061" />
-                            <point x="0.166667" y="0.742424" />
-                            <point x="0.611111" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0.742424" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.642857" hotspotY="0.527778">
-                        <collision-poly>
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="0.805556" />
-                            <point x="0.0714286" y="0.638889" />
-                            <point x="0.0714286" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.470588">
-                        <collision-poly>
-                            <point x="0" y="0" />
-                            <point x="0.766667" y="0" />
-                            <point x="0.5" y="0" />
-                            <point x="0.766667" y="0.794118" />
-                            <point x="0" y="0.617647" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite4" sid="250216554121479">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="649298392624688" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite5" sid="898322066535939">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Solid" sid="319756515998046">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="734279837806035" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Heart" sid="256941650006002">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="1Heart" pingpong="0" repeatcount="1" repeatto="0" sid="355605167773505" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jhedges\Downloads\Heart DOne.gif" />
-                </animation>
-                <animation framecount="1" loop="0" name="2Heart" pingpong="0" repeatcount="1" repeatto="0" sid="450885406847948" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-                <animation framecount="1" loop="0" name="3Heart" pingpong="0" repeatcount="1" repeatto="0" sid="885478901969469" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-                <animation framecount="1" loop="0" name="4Heart" pingpong="0" repeatcount="1" repeatto="0" sid="727416401023516" speed="5">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="709100209161338" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
@@ -269,11 +142,11 @@
     </object-folder>
     <families />
     <layout-folder>
-        <layout>Layout 1.xml</layout>
+        <layout>Redneck.xml</layout>
+        <layout>Plain.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
-        <event-sheet>Hud.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="WebStorage" uid="1" />
