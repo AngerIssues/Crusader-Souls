@@ -47,7 +47,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Blackout" uid="9">
+                <instance type="TiledBackground3" uid="9">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -58,7 +58,7 @@
                         <x>-6</x>
                         <y>-13</y>
                         <z>0</z>
-                        <width>1143</width>
+                        <width>1187</width>
                         <height>670</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -67,7 +67,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="House" uid="0">
+                <instance type="TiledBackground2" uid="0">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
