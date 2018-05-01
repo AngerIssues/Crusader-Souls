@@ -78,7 +78,7 @@
         <object-type name="Text" sid="2985603725420557">
             <plugin id="Text" />
         </object-type>
-        <object-type name="TiledBackground2" sid="870629866160195">
+        <object-type name="House" sid="870629866160195">
             <plugin id="TiledBg" />
             <texture original-source="C:\Users\plhuillier\Downloads\Finished Level.gif" />
         </object-type>
@@ -106,7 +106,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="TiledBackground3" sid="180894713878912">
+        <object-type name="Blackout" sid="180894713878912">
             <plugin id="TiledBg" />
             <texture />
         </object-type>
@@ -123,7 +123,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="TiledBackground4" sid="943927468993352">
+        <object-type name="Plain" sid="943927468993352">
             <plugin id="TiledBg" />
             <texture original-source="C:\Users\plhuillier\Downloads\Grass Land Done.gif" />
         </object-type>
