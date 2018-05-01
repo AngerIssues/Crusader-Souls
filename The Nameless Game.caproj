@@ -134,103 +134,122 @@
         <object-type name="Gold" sid="201398601304136">
             <plugin id="Text" />
         </object-type>
-        <object-type name="Heart1" sid="636683556918890">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="591909052447028" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jhedges\Downloads\Heart.gif">
-                        <collision-poly>
-                            <point x="0.40625" y="0.40625" />
-                            <point x="0.5" y="0.4375" />
-                            <point x="0.59375" y="0.40625" />
-                            <point x="0.65625" y="0.5" />
-                            <point x="0.59375" y="0.59375" />
-                            <point x="0.5" y="0.6875" />
-                            <point x="0.375" y="0.625" />
-                            <point x="0.3125" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Score" sid="962399356867087">
             <plugin id="Text" />
-        </object-type>
-        <object-type name="Coin" sid="877081899356143">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="982981798443284" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jhedges\Downloads\Coin.gif">
-                        <collision-poly>
-                            <point x="0.4375" y="0.4375" />
-                            <point x="0.5" y="0.34375" />
-                            <point x="0.625" y="0.375" />
-                            <point x="0.65625" y="0.5" />
-                            <point x="0.5625" y="0.5625" />
-                            <point x="0.5" y="0.5625" />
-                            <point x="0.4375" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
         </object-type>
         <object-type name="Text3" sid="165387455737594">
             <plugin id="Text" />
         </object-type>
-        <object-type name="Heart2" sid="915760669761822">
+        <object-type name="Sprite2" sid="825034947858144">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="478687869317458" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jhedges\Downloads\Heart.gif">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="232175441585276" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Coin" sid="489657313895620">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="6" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="268421108252866" speed="5">
+                    <frame duration="1" hotspotX="0.529412" hotspotY="0.5" original-source="C:\Users\jhedges\Downloads\Gold Coin.png">
                         <collision-poly>
-                            <point x="0.40625" y="0.40625" />
-                            <point x="0.5" y="0.4375" />
-                            <point x="0.59375" y="0.40625" />
-                            <point x="0.65625" y="0.5" />
-                            <point x="0.59375" y="0.59375" />
-                            <point x="0.5" y="0.6875" />
-                            <point x="0.375" y="0.625" />
-                            <point x="0.3125" y="0.5" />
+                            <point x="0.147059" y="0.147059" />
+                            <point x="1" y="0.205882" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0.382353" y="1" />
+                            <point x="0.382353" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.533333" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.0333333" y="0.147059" />
+                            <point x="1" y="0.205882" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0.3" y="1" />
+                            <point x="0.3" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.571429" hotspotY="0.484848">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.515152" />
+                            <point x="1" y="1" />
+                            <point x="0.0714286" y="1" />
+                            <point x="0.0714286" y="0.515152" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.111111" hotspotY="0.651515">
+                        <collision-poly>
+                            <point x="0" y="0.0757576" />
+                            <point x="0.611111" y="0.106061" />
+                            <point x="0.166667" y="0.742424" />
+                            <point x="0.611111" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.742424" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.642857" hotspotY="0.527778">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.805556" />
+                            <point x="0.0714286" y="0.638889" />
+                            <point x="0.0714286" y="0" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.470588">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.766667" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.766667" y="0.794118" />
+                            <point x="0" y="0.617647" />
+                            <point x="0" y="0" />
                         </collision-poly>
                     </frame>
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Heart3" sid="776130769115702">
+        <object-type name="Sprite4" sid="250216554121479">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="288702389224708" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jhedges\Downloads\Heart.gif">
-                        <collision-poly>
-                            <point x="0.40625" y="0.40625" />
-                            <point x="0.5" y="0.4375" />
-                            <point x="0.59375" y="0.40625" />
-                            <point x="0.65625" y="0.5" />
-                            <point x="0.59375" y="0.59375" />
-                            <point x="0.5" y="0.6875" />
-                            <point x="0.375" y="0.625" />
-                            <point x="0.3125" y="0.5" />
-                        </collision-poly>
-                    </frame>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="649298392624688" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Heart4" sid="589497867335634">
+        <object-type name="Sprite5" sid="898322066535939">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="319756515998046">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="734279837806035" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Heart" sid="256941650006002">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="520415460874959" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jhedges\Downloads\Heart.gif">
-                        <collision-poly>
-                            <point x="0.40625" y="0.40625" />
-                            <point x="0.5" y="0.4375" />
-                            <point x="0.59375" y="0.40625" />
-                            <point x="0.65625" y="0.5" />
-                            <point x="0.59375" y="0.59375" />
-                            <point x="0.5" y="0.6875" />
-                            <point x="0.375" y="0.625" />
-                            <point x="0.3125" y="0.5" />
-                        </collision-poly>
-                    </frame>
+                <animation framecount="1" loop="0" name="1Heart" pingpong="0" repeatcount="1" repeatto="0" sid="355605167773505" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jhedges\Downloads\Heart DOne.gif" />
+                </animation>
+                <animation framecount="1" loop="0" name="2Heart" pingpong="0" repeatcount="1" repeatto="0" sid="450885406847948" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="1" loop="0" name="3Heart" pingpong="0" repeatcount="1" repeatto="0" sid="885478901969469" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="1" loop="0" name="4Heart" pingpong="0" repeatcount="1" repeatto="0" sid="727416401023516" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
